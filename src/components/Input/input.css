@@ -1,0 +1,23 @@
+.text-input{
+    width: 100%;
+    padding: 18px;
+    border-radius: 16px;
+    border: 1px solid  lightgray;
+}
+
+.text-input::placeholder{
+    font-size: 14px;
+    font-weight: 450;
+    line-height: normal;
+}    
+
+.input-label{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    display:inline-block;
+}
+
+.input-label span{
+    color: red;
+}

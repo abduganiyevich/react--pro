@@ -1,0 +1,39 @@
+.drop-wrap{
+    margin-top: 20px;
+    position: relative;
+}
+
+.drop-title{
+    display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid lightgray;
+      border-radius: 14px;
+      padding: 18px;
+      cursor: pointer;
+}
+
+.drop-items{
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    border-bottom-left-radius:16px ;
+    border-bottom-right-radius:16px ;
+    border: 1px solid lightgray;
+    padding: 18px;
+}
+
+.drop-items ul{
+    list-style: none;
+  
+}
+
+.drop-items li{
+padding: 10px;
+cursor: pointer;
+}
+
+.drop-items li:hover{
+    background-color: rgb(77, 77, 224);
+    color: #fff;
+}

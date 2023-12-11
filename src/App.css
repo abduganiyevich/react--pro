@@ -1,0 +1,50 @@
+body{
+  background:#F8F8FF;
+  font-family: sans-serif;
+}
+
+.form-wrapper{
+  width: 778px;
+  background: #FFF;
+  padding: 32px 38px;
+  border-radius: 24px;
+  margin: 90px auto;
+}
+.form-subtitle{
+  margin-top: 10px;
+  margin-bottom: 32px;
+}
+
+.tripple-drop{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tripple-drop .drop-wrap{
+  width: 30%;
+}
+
+.region,.salary{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.region .drop-wrap,.salary .drop-wrap{
+  width: 50%;
+}
+.type{
+  margin-top: 20px;
+}
+.skill{
+  margin-top: 20px;
+}
+
+.button-group{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-top: 20px;
+}
